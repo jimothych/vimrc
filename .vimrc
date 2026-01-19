@@ -14,9 +14,9 @@ set number
 
 " VSCODEVIM SETTINGS
 "    "vim.normalModeKeyBindingsNonRecursive": [
-"        { "before": [":", "t", "n"], "commands": [":tabn"] },
-"        { "before": [":", "t", "p"], "commands": [":tabp"] },
-"        { "before": [":", "t", "o"], "commands": [":tabo"] },
+"        { "before": [":", "n"], "commands": [":tabn"] },
+"        { "before": [":", "p"], "commands": [":tabp"] },
+"        { "before": [":", "o"], "commands": [":tabo"] },
 "        { "before": ["`"], "after": ["<C-w>", "h"] },
 "        { "before": ["J"], "after": ["5", "j"] },
 "        { "before": ["K"], "after": ["5", "k"] },
@@ -24,9 +24,9 @@ set number
 "        { "before": ["<C-r>"], "commands": ["redo"] }
 "    ],
 "    "vim.visualModeKeyBindingsNonRecursive": [
-"        { "before": [":", "t", "n"], "commands": [":tabn"] },
-"        { "before": [":", "t", "p"], "commands": [":tabp"] },
-"        { "before": [":", "t", "o"], "commands": [":tabo"] },
+"        { "before": [":", "n"], "commands": [":tabn"] },
+"        { "before": [":", "p"], "commands": [":tabp"] },
+"        { "before": [":", "o"], "commands": [":tabo"] },
 "        { "before": ["`"], "after": ["<C-w>", "h"] },
 "        { "before": ["J"], "after": ["5", "j"] },
 "        { "before": ["K"], "after": ["5", "k"] },
