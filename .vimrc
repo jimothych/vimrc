@@ -10,6 +10,7 @@ nnoremap J 5j
 nnoremap K 5k
 vnoremap J 5j
 vnoremap K 5k
+inoremap <C-e> <C-o>a
 set number
 
 " VSCODEVIM SETTINGS
@@ -41,6 +42,10 @@ set number
 "        "<C-s>": false,
 "        "<C-z>": false
 "    }
+"    "editor.inlayHints.enabled": "onUnlessPressed",
+"    "vim.insertModeKeyBindingsNonRecursive": [
+"        { "before": ["<C-e>"], "after": ["<C-o>", "a"] }
+"    ]
 
 
 
