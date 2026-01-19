@@ -13,27 +13,27 @@ vnoremap K 5k
 set number
 
 " VSCODEVIM SETTINGS
-    "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [":", "t", "n"], "commands": [":tabn"] },
-        { "before": [":", "t", "p"], "commands": [":tabp"] },
-        { "before": [":", "t", "o"], "commands": [":tabo"] },
-        { "before": ["`"], "after": ["<C-w>", "h"] },
-        { "before": ["J"], "after": ["5", "j"] },
-        { "before": ["K"], "after": ["5", "k"] },
-        { "before": ["u"], "commands": ["undo"] },
-        { "before": ["<C-r>"], "commands": ["redo"] }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": [":", "t", "n"], "commands": [":tabn"] },
-        { "before": [":", "t", "p"], "commands": [":tabp"] },
-        { "before": [":", "t", "o"], "commands": [":tabo"] },
-        { "before": ["`"], "after": ["<C-w>", "h"] },
-        { "before": ["J"], "after": ["5", "j"] },
-        { "before": ["K"], "after": ["5", "k"] },
-        { "before": ["u"], "commands": ["undo"] },
-        { "before": ["<C-r>"], "commands": ["redo"] }
-    ],
-    "vim.sneak": true
+"    "vim.normalModeKeyBindingsNonRecursive": [
+"        { "before": [":", "t", "n"], "commands": [":tabn"] },
+"        { "before": [":", "t", "p"], "commands": [":tabp"] },
+"        { "before": [":", "t", "o"], "commands": [":tabo"] },
+"        { "before": ["`"], "after": ["<C-w>", "h"] },
+"        { "before": ["J"], "after": ["5", "j"] },
+"        { "before": ["K"], "after": ["5", "k"] },
+"        { "before": ["u"], "commands": ["undo"] },
+"        { "before": ["<C-r>"], "commands": ["redo"] }
+"    ],
+"    "vim.visualModeKeyBindingsNonRecursive": [
+"        { "before": [":", "t", "n"], "commands": [":tabn"] },
+"        { "before": [":", "t", "p"], "commands": [":tabp"] },
+"        { "before": [":", "t", "o"], "commands": [":tabo"] },
+"        { "before": ["`"], "after": ["<C-w>", "h"] },
+"        { "before": ["J"], "after": ["5", "j"] },
+"        { "before": ["K"], "after": ["5", "k"] },
+"        { "before": ["u"], "commands": ["undo"] },
+"        { "before": ["<C-r>"], "commands": ["redo"] }
+"    ],
+"    "vim.sneak": true
 
 
 
