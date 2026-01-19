@@ -33,7 +33,14 @@ set number
 "        { "before": ["u"], "commands": ["undo"] },
 "        { "before": ["<C-r>"], "commands": ["redo"] }
 "    ],
-"    "vim.sneak": true
+"    "vim.sneak": true,
+"    "editor.cursorSurroundingLines": 100,
+"    "vim.handleKeys": {
+"        "<C-f>": false, 
+"        "<C-d>": false,
+"        "<C-s>": false,
+"        "<C-z>": false
+"    }
 
 
 
