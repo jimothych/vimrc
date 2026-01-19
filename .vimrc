@@ -42,7 +42,7 @@ set number
 "        "<C-s>": false,
 "        "<C-z>": false
 "    }
-"    "editor.inlayHints.enabled": "onUnlessPressed",
+"    "editor.inlayHints.enabled": "offUnlessPressed",
 "    "vim.insertModeKeyBindingsNonRecursive": [
 "        { "before": ["<C-e>"], "after": ["<C-o>", "a"] }
 "    ]
