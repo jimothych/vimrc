@@ -81,7 +81,7 @@ Note: The cursor keys should also work.  But using hjkl you will be able to
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
@@ -105,7 +105,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is some text missing from this line.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to the summary below.
