@@ -14,39 +14,67 @@ inoremap <C-e> <C-o>a
 set number
 
 " VSCODEVIM SETTINGS
-"    "vim.normalModeKeyBindingsNonRecursive": [
-"        { "before": [":", "n"], "commands": [":tabn"] },
-"        { "before": [":", "p"], "commands": [":tabp"] },
-"        { "before": [":", "o"], "commands": [":tabo"] },
-"        { "before": ["`"], "after": ["<C-w>", "h"] },
-"        { "before": ["J"], "after": ["5", "j"] },
-"        { "before": ["K"], "after": ["5", "k"] },
-"        { "before": ["u"], "commands": ["undo"] },
-"        { "before": ["<C-r>"], "commands": ["redo"] }
-"    ],
-"    "vim.visualModeKeyBindingsNonRecursive": [
-"        { "before": [":", "n"], "commands": [":tabn"] },
-"        { "before": [":", "p"], "commands": [":tabp"] },
-"        { "before": [":", "o"], "commands": [":tabo"] },
-"        { "before": ["`"], "after": ["<C-w>", "h"] },
-"        { "before": ["J"], "after": ["5", "j"] },
-"        { "before": ["K"], "after": ["5", "k"] },
-"        { "before": ["u"], "commands": ["undo"] },
-"        { "before": ["<C-r>"], "commands": ["redo"] }
-"    ],
-"    "vim.sneak": true,
-"    "editor.cursorSurroundingLines": 100,
-"    "vim.handleKeys": {
-"        "<C-f>": false, 
-"        "<C-d>": false,
-"        "<C-s>": false,
-"        "<C-z>": false
-"    }
-"    "editor.inlayHints.enabled": "offUnlessPressed",
-"    "vim.insertModeKeyBindingsNonRecursive": [
-"        { "before": ["<C-e>"], "after": ["<C-o>", "a"] }
-"    ]
-
+" {
+"     "workbench.colorTheme": "Monokai Dimmed",
+"     "vscode-pets.petSize": "small",
+"     "vscode-pets.theme": "autumn",
+"     "editor.fontSize": 22,
+"     "indentRainbow.colors": [
+"         "rgba(247, 37, 133,0.15)",
+"         "rgba(181, 23, 158,0.15)",
+"         "rgba(114, 9, 183, 0.15)",
+"         "rgba(86, 11, 173,0.15)",
+"         "rgba(72, 12, 168,0.15)",
+"         "rgba(58, 12, 163,0.15)",
+"         "rgba(63, 55, 201,0.15)",
+"         "rgba(63, 55, 201,0.1)",
+"         "rgba(63, 55, 201,0.05)",
+"         "rgba(63, 55, 201,0.025)"
+"     ],
+"     "files.autoSave": "afterDelay",
+"     "editor.tabSize": 2,
+"     "github.copilot.enable": {
+"         "*": false,
+"         "plaintext": false,
+"         "markdown": false,
+"         "scminput": false
+"     },
+"     "vim.normalModeKeyBindingsNonRecursive": [
+"         { "before": [":", "n"], "commands": [":tabn"] },
+"         { "before": [":", "p"], "commands": [":tabp"] },
+"         { "before": [":", "o"], "commands": [":tabo"] },
+"         { "before": ["`"], "after": ["<C-w>", "h"] },
+"         { "before": ["J"], "after": ["5", "j"] },
+"         { "before": ["K"], "after": ["5", "k"] },
+"         { "before": ["u"], "commands": ["undo"] },
+"         { "before": ["<C-r>"], "commands": ["redo"] }
+"     ],
+"     "vim.visualModeKeyBindingsNonRecursive": [
+"         { "before": [":", "n"], "commands": [":tabn"] },
+"         { "before": [":", "p"], "commands": [":tabp"] },
+"         { "before": [":", "o"], "commands": [":tabo"] },
+"         { "before": ["`"], "after": ["<C-w>", "h"] },
+"         { "before": ["J"], "after": ["5", "j"] },
+"         { "before": ["K"], "after": ["5", "k"] },
+"         { "before": ["u"], "commands": ["undo"] },
+"         { "before": ["<C-r>"], "commands": ["redo"] }
+"     ],
+"     "vim.sneak": true,
+"     "editor.cursorSurroundingLines": 100,
+"     "vim.handleKeys": {
+"         "<C-f>": false, 
+"         "<C-d>": false,
+"         "<C-s>": false,
+"         "<C-z>": false
+"     },
+"     "editor.inlayHints.enabled": "offUnlessPressed",
+"     "vim.insertModeKeyBindingsNonRecursive": [
+"         { "before": ["<C-l>"], "after": ["<C-o>", "l"] },
+"         { "before": ["<C-h>"], "after": ["<C-o>", "h"] },
+"         { "before": ["<C-j>"], "after": ["<C-o>", "j"] },
+"         { "before": ["<C-k>"], "after": ["<C-o>", "k"] }
+"     ]
+" }
 
 
 
