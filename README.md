@@ -1,4 +1,6 @@
 ###my vim config
-`.vimrc` is my `~/.vimrc` config
-`settings.json` is my VSCode settings file
-fell free to use :)
+
+* `.vimrc` is my `~/.vimrc` config
+* `settings.json` is my VSCode settings file
+
+feel free to use! :)
