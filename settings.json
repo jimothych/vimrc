@@ -24,9 +24,9 @@
         "scminput": false
     },
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [":", "v"], "commands": [":tabn"] },
-        { "before": [":", "z"], "commands": [":tabp"] },
-        { "before": [":", "c"], "commands": [":tabo"] },
+        { "before": ["<leader>", "l"], "commands": [":tabn"] },
+        { "before": ["<leader>", "h"], "commands": [":tabp"] },
+        { "before": ["<leader>", "o"], "commands": [":qa"] },
         { "before": ["`"], "after": ["<C-w>", "h"] },
         { "before": ["J"], "after": ["5", "j"] },
         { "before": ["K"], "after": ["5", "k"] },
@@ -46,8 +46,12 @@
         "<C-f>": false, 
         "<C-d>": false,
         "<C-s>": false,
-        "<C-z>": false
+        "<C-z>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-a>": false,
     },
+    "vim.leader": "<space>",
     "vim.insertModeKeyBindingsNonRecursive": [
         { "before": ["<C-l>"], "after": ["<C-o>", "l"] },
         { "before": ["<C-h>"], "after": ["<C-o>", "h"] },
