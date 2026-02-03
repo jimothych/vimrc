@@ -15,6 +15,8 @@
         "rgba(63, 55, 201,0.05)",
         "rgba(63, 55, 201,0.025)"
     ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "files.autoSave": "afterDelay",
     "editor.tabSize": 2,
     "github.copilot.enable": {
@@ -23,22 +25,24 @@
         "markdown": false,
         "scminput": false
     },
+    "vim.normalModeKeyBindings": [
+        { "before": ["u"], "commands": ["undo"] },
+        { "before": ["U"], "commands": ["redo"] },
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": ["<leader>", "l"], "commands": [":tabn"] },
-        { "before": ["<leader>", "h"], "commands": [":tabp"] },
-        { "before": ["<leader>", "o"], "commands": [":qa"] },
+        { "before": ["<leader>", ";"], "commands": [":tabn"] },
+        { "before": ["<leader>", ","], "commands": [":tabp"] },
+        { "before": ["<leader>", "o"], "commands": [":tabo"] },
+        { "before": ["<leader>", "l"], "after": ["$"]},
+        { "before": ["<leader>", "h"], "after": ["^"]},
         { "before": ["`"], "after": ["<C-w>", "h"] },
         { "before": ["J"], "after": ["5", "j"] },
         { "before": ["K"], "after": ["5", "k"] },
-        { "before": ["u"], "commands": ["undo"] },
-        { "before": ["<C-r>"], "commands": ["redo"] }
+        { "before": ["<leader>", "p"], "after": ["\"", "0", "p"] },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": ["`"], "after": ["<C-w>", "h"] },
         { "before": ["J"], "after": ["5", "j"] },
         { "before": ["K"], "after": ["5", "k"] },
-        { "before": ["u"], "commands": ["undo"] },
-        { "before": ["<C-r>"], "commands": ["redo"] }
     ],
     "vim.sneak": true,
     "editor.cursorSurroundingLines": 100,
@@ -50,6 +54,8 @@
         "<C-c>": false,
         "<C-v>": false,
         "<C-a>": false,
+        "<C-p>": false,
+        "<C-y>": false,
     },
     "vim.leader": "<space>",
     "vim.insertModeKeyBindingsNonRecursive": [
@@ -59,5 +65,10 @@
         { "before": ["<C-k>"], "after": ["<C-o>", "k"] }
     ],
     "editor.inlayHints.enabled": "offUnlessPressed",
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    "editor.wordWrap": "on",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
 }
