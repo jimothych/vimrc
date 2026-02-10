@@ -2,7 +2,7 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "vscode-pets.petSize": "small",
     "vscode-pets.theme": "autumn",
-    "editor.fontSize": 22,
+    "editor.fontSize": 24,
     "indentRainbow.colors": [
         "rgba(247, 37, 133,0.15)",
         "rgba(181, 23, 158,0.15)",
@@ -39,10 +39,13 @@
         { "before": ["J"], "after": ["5", "j"] },
         { "before": ["K"], "after": ["5", "k"] },
         { "before": ["<leader>", "p"], "after": ["\"", "0", "p"] },
+        { "before": ["<leader>", "."], "after": ["@", "a"] },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": ["J"], "after": ["5", "j"] },
         { "before": ["K"], "after": ["5", "k"] },
+        { "before": ["<"], "after": ["<", "g", "v"] },
+        { "before": [">"], "after": [">", "g", "v"] },
     ],
     "vim.sneak": true,
     "editor.cursorSurroundingLines": 100,
@@ -62,7 +65,8 @@
         { "before": ["<C-l>"], "after": ["<C-o>", "l"] },
         { "before": ["<C-h>"], "after": ["<C-o>", "h"] },
         { "before": ["<C-j>"], "after": ["<C-o>", "j"] },
-        { "before": ["<C-k>"], "after": ["<C-o>", "k"] }
+        { "before": ["<C-k>"], "after": ["<C-o>", "k"] },
+        { "before": ["<Esc>"], "after": ["<Esc>", "<Esc>"] }
     ],
     "editor.inlayHints.enabled": "offUnlessPressed",
     "vim.useSystemClipboard": true,
@@ -70,5 +74,9 @@
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
-    ]
+    ],
+    "vscode-pets.petType": "fox",
+    "vscode-pets.petColor": "red",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Ubuntu Mono derivative Powerline', Consolas",
 }
