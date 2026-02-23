@@ -86,6 +86,6 @@
     "editor.fontFamily": "'Ubuntu Mono derivative Powerline', Consolas",
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.sneakReplacesF": true,
-    "terminal.integrated.cursorStyle": "underline",
-    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "outline",
 }
