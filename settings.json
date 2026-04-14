@@ -33,8 +33,10 @@
         { "before": ["<leader>", ";"], "commands": [":tabn"] },
         { "before": ["<leader>", ","], "commands": [":tabp"] },
         { "before": ["<leader>", "o"], "commands": [":tabo"] },
-        { "before": ["<leader>", "l"], "after": ["$"]},
-        { "before": ["<leader>", "h"], "after": ["^"]},
+        { "before": ["I"], "after": ["g", "^", "i"] },
+        { "before": ["A"], "after": ["g", "$", "a"] },
+        { "before": ["<leader>", "l"], "after": ["g", "$"]},
+        { "before": ["<leader>", "h"], "after": ["g", "^"]},
         { "before": ["`"], "after": ["<C-w>", "h"] },
         { "before": ["j"], "after": ["g", "j"] },
         { "before": ["k"], "after": ["g", "k"] },
@@ -51,6 +53,7 @@
         { "before": ["K"], "after": ["5", "g", "k"] },
         { "before": ["<"], "after": ["<", "g", "v"] },
         { "before": [">"], "after": [">", "g", "v"] },
+        { "before": ["<Esc>"], "after": ["<Esc>", "<Esc>"] }
     ],
     "vim.sneak": true,
     "editor.cursorSurroundingLines": 100,
@@ -87,5 +90,6 @@
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.sneakReplacesF": true,
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorStyleInactive": "outline",
+    "remote.autoForwardPortsSource": "hybrid",
+    "explorer.confirmDragAndDrop": false,
 }
