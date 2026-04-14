@@ -90,6 +90,4 @@
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.sneakReplacesF": true,
     "terminal.integrated.cursorStyle": "line",
-    "remote.autoForwardPortsSource": "hybrid",
-    "explorer.confirmDragAndDrop": false,
 }
